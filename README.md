@@ -80,6 +80,9 @@ password.send_keys(Keys.RETURN)
 ```
 * Execute rest of the code for getting the crawled data.
 * Comments will be added `comments.csv` file.
+<br>
+<hr>
+<br>
 
 ## Explanation
 <table>
@@ -241,5 +244,8 @@ A dataframe read from the `posts.csv` file where the links are stored.
 shumaiya15-12179@diu.edu.bd <br>
 [Sajal Das](https://github.com/sajaldoes)<br>
 sajal15-12381@diu.edu.bd <br>
+<br>
+<hr>
+<br>
 
 ## License
