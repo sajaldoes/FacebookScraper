@@ -8,7 +8,7 @@
     <li><a href="#Prerequisite">Prerequisite</a></li>
     <li><a href="#Commands">Commands</a></li>
     <li><a href="#Usage">Usage</a></li>
-    <li><a href="#Functions and variable Explanation">Functions and variable Explanation</a></li>
+    <li><a href="#Explanation">Explanation</a></li>
     <li><a href="#Contact">Contact</a></li>
     <li><a href="#license">License</a></li>
   </ol>
