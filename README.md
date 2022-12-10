@@ -1,6 +1,4 @@
-# FacebookScraper
-
-## Facebook Comment Scraper from Bangla News
+## Facebook Comment Scraper
 
 <!--TABLE of contents-->
 <h2> Table of Contents </h2>
@@ -10,7 +8,8 @@
     <li><a href="#Prerequisite">Prerequisite</a></li>
     <li><a href="#Commands">Commands</a></li>
     <li><a href="#Usage">Usage</a></li>
-    <li><a href="#tech">Tech</a></li>
+    <li><a href="#Explanation">Functions and variable Explanation</a></li>
+    <li><a href="#Contact">Contact</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -82,13 +81,165 @@ password.send_keys(Keys.RETURN)
 * Execute rest of the code for getting the crawled data.
 * Comments will be added `comments.csv` file.
 
+<h3 id="scraperParameters"> Functions and variable Explanation </h3>
+<table>
+<th>
+<tr>
+<td> <b>Terminology</b> </td>
+<td> <b>Type</b> </td>
+<td> <b>Description</b> </td>
+</tr>
+</th>
+
+<tr>
+<td>
+comment_texts
+</td>
+<td>
+List
+</td>
+<td>
+A list of strings where all the comments are appended.
+</td>
+</tr>
+
+<tr>
+<td>
+link_index
+</td>
+<td>
+List
+</td>
+<td>
+A list of integers where all the post link indexes are appended.
+</td>
+</tr>
+
+<tr>
+<td>
+comment_crawl()
+</td>
+<td>
+Function
+</td>
+<td>
+A function find the elements of comments and process them to add at the comment_texts list. It takes i as input which is the index of the link.
+</td>
+</tr>
+
+<tr>
+<td>
+replies_crawl()
+</td>
+<td>
+Function
+</td>
+<td>
+A function find the elements of replied button then go through the page, find the comments and process them to add at the comment_texts list. It takes i as input which is the index of the link.code>
+</td>
+</tr>
+
+<tr>
+<td>
+replied_btn
+</td>
+<td>
+Object
+</td>
+<td>
+An object find the elements of reply button by xpath
+ </code>
+</td>
+</tr>
+
+<tr>
+<td>
+comments
+</td>
+<td>
+Object
+</td>
+<td>
+An object find the elements of comment texts by xpath
+ </code>
+</td>
+</tr>
+
+<tr>
+<td>
+mentions
+</td>
+<td>
+Object
+</td>
+<td>
+An object find the elements of mention on replied comments by xpath
+ </code>
+</td>
+</tr>
+
+<tr>
+<td>
+more_btn
+</td>
+<td>
+Object
+</td>
+<td>
+An object find the element of more button on the page by xpath
+</td>
+</tr>
+
+<tr>
+<td>
+cmnt
+</td>
+<td>
+String
+</td>
+<td>
+A string which is a stripped comment text
+ </code>
+</td>
+</tr>
+
+<tr>
+<td>
+comments_df
+</td>
+<td>
+Dataframe
+</td>
+<td>
+A dataframe with link index and comment texts
+ </code>
+</td>
+</tr>
+
+<tr>
+<td>
+posts
+</td>
+<td>
+Dataframe
+</td>
+<td>
+A dataframe read from the `posts.csv` file where the links are stored.
+ </code>
+</td>
+</tr>
+</table>
+
+<br>
+<hr>
+<br>
 
 
-## Team Dynamic DUO
-### Sajal Das
-#### sajal15-12381@diu.edu.bd
+## Contact
 
+[Shumaiya Akter Shammi](https://github.com/Shammi179)<br>
+shumaiya15-12179@diu.edu.bd <br>
+[Sajal Das](https://github.com/sajaldoes)<br>
+sajal15-12381@diu.edu.bd <br>
 
-### Shumaiya Akter Shammi
-#### shumaiya15-12179@diu.edu.bd
-#### Cell- 01843441269
+## License
