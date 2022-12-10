@@ -81,7 +81,7 @@ password.send_keys(Keys.RETURN)
 * Execute rest of the code for getting the crawled data.
 * Comments will be added `comments.csv` file.
 
-## Explanation a
+## Explanation
 <table>
 <th>
 <tr>
