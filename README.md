@@ -84,8 +84,8 @@ password.send_keys(Keys.RETURN)
 <hr>
 <br>
 
-## Flowchart
-![](scrapingAlgo.png)
+## Pseudocode
+![](Alogrithm_of_FacebookScraper.png)
 
 ## Explanation
 <table>
